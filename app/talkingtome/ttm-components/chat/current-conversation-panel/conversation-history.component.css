@@ -1,0 +1,7 @@
+:host{
+    display:block;
+    margin:0 auto;
+    height:calc(100% - 40px);
+    overflow-y:scroll;
+    overflow-x:hidden;
+}

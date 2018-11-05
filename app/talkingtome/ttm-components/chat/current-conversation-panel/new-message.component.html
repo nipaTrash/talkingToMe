@@ -1,0 +1,5 @@
+<form (ngSubmit)="onSend()" [formGroup]="newMessageForm">
+   
+    <input matInput type="text" formControlName = "newMessage" style="width:80%;">
+    <button  [disabled]="!newMessageForm.valid" type="submit">Send</button>
+</form>
